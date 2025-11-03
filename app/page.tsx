@@ -6,7 +6,7 @@ export default function Home() {
       <section className="max-w-3xl text-center">
         <h1 className="text-5xl font-bold mb-4">Merj</h1>
         <p className="text-lg text-gray-600 mb-8">
-          Merj is an AI-powered CLI that automatically resolves merge conflicts during <code>git pull</code> operations, harnessing the power of GitHub, CodeRabbit, VoyageAI, and Claude.
+          Merj is an AI-powered CLI that resolves merge conflicts during <code>git pull</code> operations, harnessing the power of GitHub, CodeRabbit, VoyageAI, and Claude.
         </p>
 
         <div className="flex justify-center gap-4 mb-8">
@@ -104,9 +104,9 @@ export default function Home() {
             Usage: merj [options] [command]{'\n\n'}
             A CLI that automatically resolves merge conflicts upon git pulls{'\n\n'}
             Commands:{'\n'}
-              auth            Set up GitHub authentication with Personal Access Token{'\n'}
-              pull [options]  Pull changes from remote and automatically resolve merge conflicts{'\n'}
-              push [options]  Push changes to remote repository
+            auth            Set up GitHub authentication with Personal Access Token{'\n'}
+            pull [options]  Pull changes from remote and automatically resolve merge conflicts{'\n'}
+            push [options]  Push changes to remote repository
           </code>
         </pre>
 
@@ -132,16 +132,16 @@ export default function Home() {
         <h4 className="text-xl font-semibold mb-1">Project Structure</h4>
         <pre className="bg-gray-900 text-white p-4 rounded-lg mb-6">
           <code>
-MergeConflictResolver/ {'\n'}
-├── bin/ {'\n'}
-│   └── index.js          # Main CLI entry point{'\n'}
-├── lib/ {'\n'}
-│   ├── auth.js           # GitHub authentication{'\n'}
-│   └── git.js            # Git operations{'\n'}
-├── package.json          # Dependencies and config{'\n'}
-├── README.md             # Project overview{'\n'}
-├── SETUP.md              # This file{'\n'}
-└── TESTING_GUIDE.md      # How to test features
+            MergeConflictResolver/ {'\n'}
+            ├── bin/ {'\n'}
+            │   └── index.js          # Main CLI entry point{'\n'}
+            ├── lib/ {'\n'}
+            │   ├── auth.js           # GitHub authentication{'\n'}
+            │   └── git.js            # Git operations{'\n'}
+            ├── package.json          # Dependencies and config{'\n'}
+            ├── README.md             # Project overview{'\n'}
+            ├── SETUP.md              # This file{'\n'}
+            └── TESTING_GUIDE.md      # How to test features
           </code>
         </pre>
 
@@ -158,9 +158,9 @@ MergeConflictResolver/ {'\n'}
         </p>
         <pre className="bg-gray-900 text-white p-4 rounded-lg mb-6">
           <code>
-macOS/Linux: ~/.merjrc{'\n'}
-File permissions: 600 (owner read/write only){'\n'}
-No additional environment variables needed!
+            macOS/Linux: ~/.merjrc{'\n'}
+            File permissions: 600 (owner read/write only){'\n'}
+            No additional environment variables needed!
           </code>
         </pre>
 
@@ -171,8 +171,8 @@ No additional environment variables needed!
 
         <h4 className="text-xl font-semibold mb-1">Support</h4>
         <p className="text-gray-600 mb-6">
-          For issues or questions: <br/>
-          GitHub Issues: <Link href="https://github.com/Anay-jo/MergeConflictResolver/issues"><a className="text-blue-600 underline">https://github.com/Anay-jo/MergeConflictResolver/issues</a></Link><br/>
+          For issues or questions: <br />
+          GitHub Issues: <Link href="https://github.com/Anay-jo/MergeConflictResolver/issues"><a className="text-blue-600 underline">https://github.com/Anay-jo/MergeConflictResolver/issues</a></Link><br />
           Check <code>TESTING_GUIDE.md</code> for testing scenarios.
         </p>
 
@@ -183,13 +183,13 @@ No additional environment variables needed!
 
         <h4 className="text-xl font-semibold mb-1">Uninstall</h4>
         <p className="text-gray-600 mb-6">
-          To remove the global link: <code>npm unlink -g merj</code><br/>
+          To remove the global link: <code>npm unlink -g merj</code><br />
           To remove local dependencies: <code>npm uninstall</code>
         </p>
       </section>
 
       <footer className="mt-20 text-sm text-gray-500">
-      Built by Anay Joshi, Sam Avramov, Ayush Sridhar, and Josh Chen
+        Built by Anay Joshi, Sam Avramov, Ayush Sridhar, and Josh Chen
       </footer>
     </main>
   );
