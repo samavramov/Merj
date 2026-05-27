@@ -577,7 +577,7 @@ ISC License - See LICENSE file
 
 ## Authors
 
-Anay, Sam, Ayush, and Josh
+Sam, Anay, Ayush, and Josh
 
 ---
 
